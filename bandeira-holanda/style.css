@@ -1,0 +1,34 @@
+/* style.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+  }
+  
+  .bandeira {
+    width: 300px;   
+    height: 180px;  
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+  }
+  
+  .bandeira div {
+    flex: 1;  
+  }
+  
+  
+  .top {
+    background-color: #21468B; 
+  }
+  
+  .middle {
+    background-color: #ffffff; 
+  }
+  
+  .bottom {
+    background-color: #AE1C28; 
+  }

@@ -1,0 +1,41 @@
+.bandeira {
+    width: 300px;       
+    height: 180px;      
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top, .middle, .bottom {
+    width: 100%;
+  }
+  
+  .top {
+    height: 36px;       
+    background-color: #d7141a;
+  }
+  
+  .middle {
+    display: flex;
+    flex-direction: column;
+    height: 108px;      
+  }
+  
+  .middle div {
+    width: 100%;
+  }
+  
+  .middle .white-top,
+  .middle .white-bottom {
+    height: 18px;       
+    background-color: #ffffff;
+  }
+  
+  .middle .blue {
+    height: 72px;       
+    background-color: #0a1ea1;
+  }
+  
+  .bottom {
+    height: 36px;       
+    background-color: #d7141a;
+  }
